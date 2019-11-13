@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/QuesAll"
+        android:title="All"
+        android:icon="@drawable/icon_1"/>
+    <item
+        android:id="@+id/QuesMath"
+        android:title="Math"
+        android:icon="@drawable/icon_4"/>
+    <item
+        android:id="@+id/QuesPhysical"
+        android:title="Physical"
+        android:icon="@drawable/icon_4"/>
+</menu>

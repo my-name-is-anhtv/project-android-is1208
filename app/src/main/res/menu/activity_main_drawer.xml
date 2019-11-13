@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/home"
+            android:title="@string/menu_home" />
+    </group>
+
+
+    <item android:title="Đề thi trắc nghiệm">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/montoan"
+                    android:icon="@drawable/cauhoi"
+                    android:title="Môn Toán" />
+                <item
+                    android:id="@+id/monly"
+                    android:icon="@drawable/tracnghiem"
+                    android:title="Môn vật lý" />
+                <item
+                    android:id="@+id/monhoa"
+                    android:icon="@drawable/cauhoi"
+                    android:title="Môn Hóa" />
+                <item
+                    android:id="@+id/ViewScore"
+                    android:icon="@drawable/ic_menu_send"
+                    android:title="View Score" />
+                <item
+                    android:id="@+id/gameQuiz"
+                    android:icon="@drawable/ic_menu_send"
+                    android:title="Quiz Game" />
+                <item
+                    android:id="@+id/Search"
+                    android:icon="@drawable/ic_menu_send"
+                    android:title="Search Question" />
+            </group>
+        </menu>
+    </item>
+
+</menu>
